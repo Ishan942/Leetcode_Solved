@@ -8,7 +8,7 @@ public:
             return false;
         }
     }
-    string reverseVowels(string s) {
+    string reverseVowels(string &s) {
         int i=0;int j=s.length()-1;
         char temp;
         while(j>i){
